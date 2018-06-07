@@ -1,0 +1,12 @@
+  578  touch install.sh
+  579  mkmdir app
+  580  mkdir app
+  581  cd app
+  582  mkdir bin
+  583  mv ../install.sh bin/install.sh.backup
+  584  ls
+  585  rm bin/install.sh.backup
+  586  rm -rf bin
+  587  ls
+  588  cd ..
+  589  rm -rf app
